@@ -1,5 +1,5 @@
 import { useSelector } from "@xstate/react";
-import { lightOffSelector } from "../../machine";
+import { lightOffSelector } from "../../machine/lightSwitch";
 import { useLightSwitchMachine } from "../../context";
 
 import lampOff from "../../images/lightOff.png";

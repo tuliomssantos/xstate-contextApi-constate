@@ -2,7 +2,7 @@ import constate from "constate";
 
 import { useInterpret } from "@xstate/react";
 
-import { lightSwitchMachine } from "../machine";
+import { lightSwitchMachine } from "../machine/lightSwitch";
 
 function useLightSwitcInterpreter() {
   return useInterpret(lightSwitchMachine);

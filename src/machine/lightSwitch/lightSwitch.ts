@@ -3,7 +3,7 @@ import {
   LightSwitchContext,
   LightSwitchState,
   LightSwitchEvent,
-} from "../../types";
+} from "../../types/lightSwitch";
 
 export const lightSwitchMachine = createMachine<
   LightSwitchContext,

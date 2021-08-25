@@ -3,7 +3,7 @@ import {
   LightSwitchContext,
   LightSwitchEvent,
   LightSwitchState,
-} from "../../types";
+} from "../../types/lightSwitch";
 
 export const lightOnSelector = (
   state: State<LightSwitchContext, LightSwitchEvent, any, LightSwitchState>
