@@ -23,7 +23,6 @@ export const lightConectorMachine = createMachine<
     energizingLamp: {
       invoke: {
         src: "enerzigeLamp",
-        // src: (_, { voltage }) => energize220v(voltage),
         onDone: "lightOn",
         onError: "lightBroken",
       },
